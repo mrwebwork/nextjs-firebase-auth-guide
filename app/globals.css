@@ -2,4 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body, :root {height: 100%;}
 
+.btn {
+  @apply px-4 py-2 text-2xl rounded-md shadow-md hover:shadow-lg bg-sky-300 hover:bg-sky-400 transition text-white font-bold;
+}
+
+.btn-2 {
+  @apply px-4 py-2 mt-5 text-2xl rounded-md shadow-md hover:shadow-lg bg-green-400 hover:bg-green-500 transition text-white font-bold;
+}
+
+.btn-3 {
+  @apply px-4 py-2 mt-5 text-2xl rounded-md shadow-md hover:shadow-lg bg-purple-400 hover:bg-purple-500 transition text-white font-bold;
+}
+
+.btn-4 {
+  @apply px-4 py-2 mt-5 text-2xl rounded-md shadow-md hover:shadow-lg bg-teal-400 hover:bg-teal-500 transition text-white font-bold;
+}
