@@ -19,8 +19,11 @@ Ensure you have Node.js installed on your local machine. If not, download it fro
   will create a new Next.js app inside a folder named `my-app`. It will prompt you to enter the name of the project, this can be anything you want. <br>
 
 2. Install `Tailwind CSS` when prompted in the CLI <br>
+3. Install `ESLint` <br>
+4. Choose `App` recommend option, not `src` folder option <br>
+5. After installation is complete, run `npm update` <br>
 
-3. Run `npm run dev` to start the development server. Make sure you use `nvm use v18` to use the correct node version.
+6. Run `npm run dev` to start the development server. Make sure you use `nvm use v18` to use the correct node version.
 
 **IMPORTANT NOTE** <br>
 When installing packages, make sure to shut down the server and restart it again. This will ensure that the packages are installed correctly and you don't run into any errors.
