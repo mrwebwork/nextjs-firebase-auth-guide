@@ -9,11 +9,11 @@ Ensure you have Node.js installed on your local machine. If not, download it fro
 
 ## Project Setup
 
-1. Install `Next.js` and create a new app:
+1. Install `Next.js` and create a new app inside current folder with out giving a project name:
 
 -     `npx create-next-app@latest .`
 
-  will create a Next.js app inside the current folder
+  will create a Next.js app and will require project name:
 
 -     `npx create-next-app@latest`
   will create a new Next.js app inside a folder named `my-app`. It will prompt you to enter the name of the project, this can be anything you want. <br>
